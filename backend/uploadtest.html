@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Product (with Token)</title>
+</head>
+<body>
+  <h2>Upload Product (with Admin Token)</h2>
+
+  <form id="productForm">
+    <input type="text" name="name" placeholder="Name" /><br /><br />
+    <input type="text" name="description" placeholder="Description" /><br /><br />
+    <input type="number" name="price" placeholder="Price" /><br /><br />
+    <input type="text" name="category" placeholder="Category" /><br /><br />
+    <input type="text" name="subCategory" placeholder="SubCategory" /><br /><br />
+    <input type="text" name="sizes" placeholder='Sizes like ["M", "L"]' /><br /><br />
+    <input type="text" name="bestseller" placeholder="true or false" /><br /><br />
+
+    <input type="file" name="image1" /><br /><br />
+    <input type="file" name="image2" /><br /><br />
+    <input type="file" name="image3" /><br /><br />
+    <input type="file" name="image4" /><br /><br />
+
+    <button type="submit">Upload Product</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('productForm');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+
+      const token = "eyJhbGciOiJIUzI1NiJ9.YWRtaW5AZm9yZXZlci5jb21wYXNzd29yZDEyMw.LIkVAFKWyYwJaLE1uT-U5HoDNbnmiCSIA7Tea5-G9gE"; // Replace with real token
+
+      const res = await fetch('http://localhost:4000/api/product/add', {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${token}`
+        },
+        body: formData
+      });
+
+      const data = await res.json();
+      console.log(data);
+      alert(data.message);
+    });
+  </script>
+</body>
+</html>
