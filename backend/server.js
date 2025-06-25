@@ -19,13 +19,13 @@ app.use(cors())
 
 //api endpoint
 
-// app.get('/',(req,res)=>{
-//     res.send("API WORKING")
-// })
-
 app.use("/api/user",userRouter)   //all this are api endpoint
 app.use("/api/product",productRouter)
 app.use("/api/cart",cartRouter)
 app.use("/api/order",orderRouter)
+
+app.get('/', (req, res) => {
+  res.send('✅ Forever Ecommerce Backend API is Running...');
+});
 
 app.listen(port,()=> console.log('server started on PORT:'+ port))
