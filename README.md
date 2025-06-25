@@ -20,7 +20,9 @@ A complete MERN Stack Ecommerce Application with Customer Frontend, Admin Panel,
 
 #🛠️ Tech Stack
 
+
 ✅ Frontend (User + Admin Panel):
+
 React:
 ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
 
@@ -34,6 +36,7 @@ Axios:
 ![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white)
 
 ✅ Backend (API Server):
+
 Node.js:
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
 
@@ -55,7 +58,9 @@ Stripe:
 JWT:
 ![JWT](https://img.shields.io/badge/-JWT-000000?logo=jsonwebtokens&logoColor=white)
 
+
 ✅ Deployment:
+
 Vercel:
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white)
 
