@@ -110,7 +110,7 @@ const Orders = ({ token }) => {
 
             {/* Status Dropdown */}
             <div className="min-w-[160px]">
-              <select onChange={(event)=>statusHandler(event,order._id)} value={order.status}>
+              <select onChange={(event)=>statusHandler(event,order._id)} value={order.status}
                 className="border px-2 py-1 rounded-md text-sm font-semibold">
                 <option value="Order Placed">Order Placed</option>
                 <option value="Packing">Packing</option>
