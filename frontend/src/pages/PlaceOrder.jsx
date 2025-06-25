@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ShopContext } from "../context/ShopContext";
 import { assets } from "../assets/assets";
 import Title from "../components/Title";
-import CartTotal from "../components/CartTotal";
+import CartTotal from "../components/cartTotal";
 import {  useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import axios from "axios";
