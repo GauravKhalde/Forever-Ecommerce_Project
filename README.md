@@ -3,7 +3,8 @@
 
 A complete MERN Stack Ecommerce Application with Customer Frontend, Admin Panel, Node.js API, Cloudinary Image Upload, and Stripe Payments, all deployed on Vercel.
 
-🚀 Features
+#🚀 Features
+
 🖥️ Customer Frontend (Product Browsing, Cart, Orders, Payments)
 
 🛠️ Admin Panel (Add Products, Manage Orders, Update Status)
@@ -17,7 +18,7 @@ A complete MERN Stack Ecommerce Application with Customer Frontend, Admin Panel,
 🌐 REST API with Node.js + Express
 
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 
 ✅ Frontend (User + Admin Panel):
 React:
@@ -58,22 +59,14 @@ JWT:
 Vercel:
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white)
 
-📁 Folder Structure
+#📁 Folder Structure
 Forever-Ecommerce_Project/
 ├── backend/        # Node.js + Express API (MongoDB + Stripe + Cloudinary)
 ├── frontend/       # React + Vite (Customer Website)
 └── admin/          # React + Vite (Admin Panel for Product & Order Management)
 
 
-🌐 Live URLs (Vercel)
-| Part        | Link                                                                 |
-| ----------- | -------------------------------------------------------------------- |
-| Frontend    | [https://your-frontend.vercel.app](https://your-frontend.vercel.app) |
-| Backend API | [https://your-backend.vercel.app](https://your-backend.vercel.app)   |
-| Admin Panel | [https://your-admin.vercel.app](https://your-admin.vercel.app)       |
-
-
-⚙️ How to Run Locally
+#⚙️ How to Run Locally
 Clone the Repo:
 git clone https://github.com/GauravKhalde/Forever-Ecommerce_Project.git
 cd Forever-Ecommerce_Project
@@ -114,7 +107,7 @@ VITE_APP_BACKEND_URL=https://your_backend_url.vercel.app/
 Run admin:
 npm run dev
 
-✅ Deployment on Vercel
+#✅ Deployment on Vercel
 For each folder (backend, frontend, admin):
 Deploy as separate Vercel projects
 Backend → Vercel Node project
@@ -122,7 +115,7 @@ Frontend & Admin → Vite → Build Command: npm run build, Output: dist
 Set .env in Vercel Dashboard (Environment Variables)
 
 
-✅ Author
+#✅ Author
 Gaurav Khalde
 MERN Stack Developer | React | Node.js | MongoDB | Cloudinary | Stripe
 
