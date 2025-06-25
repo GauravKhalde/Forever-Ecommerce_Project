@@ -1,4 +1,4 @@
-**🛒 Forever Ecommerce (MERN Fullstack Project)**
+# 🛒 Forever Ecommerce (MERN Fullstack Project)
 
 
 A complete MERN Stack Ecommerce Application with Customer Frontend, Admin Panel, Node.js API, Cloudinary Image Upload, and Stripe Payments, all deployed on Vercel.
